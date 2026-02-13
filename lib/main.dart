@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:aplicativo_de_musica/pages/login_page.dart';
+
 void main(){
   runApp(MyApp());
 }
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: loginpage(),//no momente deixando a tela que estou criando
+      home: LoginPage(),//no momente deixando a tela que estou criando
 
 
     );
